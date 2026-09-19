@@ -14,16 +14,16 @@ export async function GET(
     return new NextResponse("Not found", { status: 404 });
   }
 
-  // Layout: qt-gate/{web,qa-gate}; recordings live under the backend.
+  // Layout: qt-gate/{web,backend}; recordings live under the backend.
   const file = path.resolve(
     process.cwd(),
     "..",
-    "qa-gate",
+    "backend",
     "demo",
     "audio",
     `${leadId}.mp3`,
   );
-  const root = path.resolve(process.cwd(), "..", "qa-gate", "demo", "audio");
+  const root = path.resolve(process.cwd(), "..", "backend", "demo", "audio");
   if (!file.startsWith(root) || !existsSync(file)) {
     return new NextResponse("No recording", { status: 404 });
   }
