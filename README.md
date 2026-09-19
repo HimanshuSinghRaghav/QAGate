@@ -1,4 +1,4 @@
-# QT Gate
+# QA Gate
 
 [![Watch the demo](https://img.youtube.com/vi/P9DYUguhibQ/maxresdefault.jpg)](https://youtu.be/P9DYUguhibQ)
 
