@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+demo/audio/*.mp3
+demo/audio/*.timings.json
+demo/audio/_turns/
+.pytest_cache/
+.DS_Store

@@ -1,0 +1,21 @@
+QA Gate — TTS scripts for demo audio
+
+5 leads were seeded. Only 3 unique transcripts exist:
+  3613790 = messy real call          -> QA_REVIEW (address changed mid-call)
+  3613791 = cleaned variant          -> AUTO_APPROVED
+  3613792 = misquoted $35.90         -> HELD
+  3613793 = same script as 3613792   -> HELD (repeat offence)
+  3613794 = same script as 3613792   -> HELD (repeat offence)
+
+Use *_elevenlabs.txt in ElevenLabs (Helen = customer, Marco = agent).
+The plain {lead_id}.txt files are the exact seeded transcript.
+
+Voices to pick:
+  Helen  — Australian woman, ~50s (customer)
+  Marco  — Filipino/Australian male, sales agent
+
+Do not generate card-number audio. Payment is muted on the call.
+
+script used by: 3613790
+script used by: 3613791
+script used by: 3613792, 3613793, 3613794
