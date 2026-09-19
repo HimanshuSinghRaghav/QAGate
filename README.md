@@ -1,8 +1,6 @@
 # QT Gate
 
-<video src="./demo.mp4" controls width="100%">
-  <a href="./demo.mp4">Watch the demo</a>
-</video>
+[![Watch the demo](https://img.youtube.com/vi/P9DYUguhibQ/maxresdefault.jpg)](https://youtu.be/P9DYUguhibQ)
 
 Automated QA scoring for sales calls — score the sale before it ships.
 
