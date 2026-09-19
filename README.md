@@ -1,5 +1,9 @@
 # QT Gate
 
+<video src="./demo.mp4" controls width="100%">
+  <a href="./demo.mp4">Watch the demo</a>
+</video>
+
 Automated QA scoring for sales calls — score the sale before it ships.
 
 ## Understand the project (Obsidian)

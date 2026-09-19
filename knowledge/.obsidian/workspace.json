@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9dc41c409419c30a",
+        "id": "55fc0526b8396183",
         "type": "tabs",
         "children": [
           {
-            "id": "c623e7f5c1c2fc50",
+            "id": "325258dfbc104d2a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "09 AI Context/START-HERE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "START-HERE"
             }
           }
         ]
@@ -95,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "09 AI Context/START-HERE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "09 AI Context/START-HERE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -155,6 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "09 AI Context/START-HERE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -181,16 +188,33 @@
       "bases:Create new base": false
     }
   },
-  "active": "c623e7f5c1c2fc50",
+  "active": "325258dfbc104d2a",
   "lastOpenFiles": [
-    "00 Inbox/Session-Handoff-2026-09-19.md",
     "09 AI Context/START-HERE.md",
-    "Home.md",
-    "03 Modules/Transcript.md",
-    "03 Modules/Ingestion.md",
+    "09 AI Context/Rules.md",
+    "08 Decisions/ADR-005 Call date picks check version.md",
+    "08 Decisions/ADR-004 Missing input is NOT_APPLICABLE.md",
+    "08 Decisions/ADR-003 Conversation state not first occurrence.md",
+    "08 Decisions/ADR-002 Unavailable LLM cannot ship a sale.md",
+    "08 Decisions/ADR-001 Deterministic first model last.md",
+    "07 Bugs/Audio proxy still points at qa-gate.md",
+    "06 Features/Score the Sale.md",
+    "06 Features/Lead Workspace.md",
+    "06 Features/Human Override.md",
+    "06 Features/Check Versioning.md",
+    "06 Features/Card Redaction.md",
     "05 APIs/Route Map.md",
     "04 Database/Schema.md",
     "02 Architecture/Architecture.md",
-    "01 Project/Overview.md"
+    "01 Project/Overview.md",
+    "12 Archive/README.md",
+    "11 Meetings/README.md",
+    "07 Bugs/README.md",
+    "10 Prompts/Score a lead.md",
+    "10 Prompts/Add check handler.md",
+    "10 Prompts/Update vault after code change.md",
+    "09 AI Context/Concepts/Timing sources.md",
+    "09 AI Context/Concepts/Card redaction.md",
+    "09 AI Context/Concepts/Check versioning.md"
   ]
 }
